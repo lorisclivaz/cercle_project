@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "538693374798",
+    "firebase_url": "https://cercle-project.firebaseio.com",
+    "project_id": "cercle-project",
+    "storage_bucket": "cercle-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538693374798:android:b270b5be214b33af32c41f",
+        "android_client_info": {
+          "package_name": "com.project.cercle_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538693374798-guns4lfsem9ithvf3822bh8400n4246h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA04DFLjOZ9qmco40n49GAnrV-YqJNnMVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538693374798-guns4lfsem9ithvf3822bh8400n4246h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
