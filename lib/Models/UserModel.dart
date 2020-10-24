@@ -1,3 +1,5 @@
+import 'package:firebase_database/firebase_database.dart';
+
 class UserModel
 {
   //Variable de la classe
@@ -22,5 +24,16 @@ class UserModel
 
   }
 
+  UserModel.fromSnapshot(DataSnapshot snapshot)
+  {
+    this.photoUrl = snapshot.value["photoUrl"];
+    this.firstName = snapshot.value["firstName"];
+    this.lastName = snapshot.value["lastName"];
+    this.email = snapshot.value["email"];
+    this.password = snapshot.value["password"];
+    this.sexe = snapshot.value["sexe"];
+    this.isAdmin = snapshot.value["isAdmin"];
+
+  }
 
 }

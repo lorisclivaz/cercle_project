@@ -5,8 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'authentication/SignInPage.dart';
+import 'authentication/LoginPage.dart';
 
 
 Future<void> main() async{
